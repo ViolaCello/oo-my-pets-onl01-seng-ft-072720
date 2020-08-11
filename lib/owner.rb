@@ -64,6 +64,10 @@ class Owner
     own_dogs.map do |dog| 
       dog.mood = "nervous"
     end
+     own_cats = cats 
+    own_cats.map do |cat| 
+      cat.mood = "nervous"
+    end
   end
   
 end
