@@ -15,4 +15,9 @@ def  self.all
   @@all
 end
   
+    def dogs
+   #  binding.pry 
+    dogss = Dog.all.find_all {|dog| dog.owner == self}
+  end 
+  
 end
