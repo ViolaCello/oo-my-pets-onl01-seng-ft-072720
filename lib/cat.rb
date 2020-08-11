@@ -4,11 +4,11 @@ class Cat
   
   def initialize(name, owner)
     @name = name 
-    @owner = self.Owner.new(owner)
+    @owner = owner 
   end
     
     def owner(new_owner)
-      @owner = Owner.name(new_owner)
+      @owner = self.owner(new_owner)
     end
     
 end
