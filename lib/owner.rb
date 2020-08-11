@@ -37,5 +37,8 @@ class Owner
     dogss = Dog.all.find_all {|dog| dog.owner == self}
   end 
   
+  def buy_cat(name)
+    
+  end
   
 end
