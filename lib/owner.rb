@@ -29,7 +29,7 @@ class Owner
   
   def cats 
    #  binding.pry 
-    catss = Cats.all.find_all{|cat| cat.owner == self}
+    catss = Cats.all.find_all {|cat| cat.owner == self}
    
   end 
   
