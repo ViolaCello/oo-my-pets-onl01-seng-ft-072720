@@ -8,7 +8,7 @@ class Cat
   end
     
     def owner(new_owner)
-      @owner = Owner.new(new_owner)
+      @owner = Owner.name(new_owner)
     end
     
 end
