@@ -52,6 +52,11 @@ class Owner
     end
   end
   
-  
+  def feed_cats
+    own_cats = cats 
+    own_cats.map do |cat| 
+      cat.mood = "happy"
+    end
+  end
   
 end
