@@ -60,7 +60,10 @@ class Owner
   end
   
   def sell_pets
-    
+    own_dogs = dogs 
+    own_dogs.map do |dog| 
+      dog.mood = "nervous"
+    end
   end
   
 end
