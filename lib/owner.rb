@@ -63,10 +63,12 @@ class Owner
     own_dogs = dogs 
     own_dogs.map do |dog| 
       dog.mood = "nervous"
+      dog.owner = nil 
     end
      own_cats = cats 
     own_cats.map do |cat| 
       cat.mood = "nervous"
+      cat.owner = nil 
     end
   end
   
