@@ -8,7 +8,7 @@ class Owner
   end
   
   def say_species
-    puts "I am human"
+    return "I am human."
   end
   
 end
