@@ -32,7 +32,10 @@ class Owner
     catss = Cat.all.find_all {|cat| cat.owner == self}
   end 
   
-  
+    def dogs
+   #  binding.pry 
+    dogss = Dog.all.find_all {|dog| dog.owner == self}
+  end 
   
   
 end
