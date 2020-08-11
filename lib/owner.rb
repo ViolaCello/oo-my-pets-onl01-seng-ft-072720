@@ -59,4 +59,6 @@ class Owner
     end
   end
   
+  def sell_
+  
 end
