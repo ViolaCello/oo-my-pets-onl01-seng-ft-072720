@@ -1,11 +1,14 @@
 class Cat
   # code goes here
-  attr_accessor :name
-  attr_reader :owner
+  attr_accessor :name, :owner
   
   def initialize(name, owner)
     @name = name 
     @owner = owner
   end
+    
+    def owner(new_owner)
+      self.owner = new_owner
+    end
     
 end
