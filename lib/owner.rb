@@ -45,6 +45,11 @@ class Owner
     new_dog = Dog.new(name, self)
   end
   
-  
+  def walk_dogs
+    own_dogs = dogs 
+    own_dogs.map do |dog| 
+      dog.mood = "happy"
+    end
+  end
   
 end
